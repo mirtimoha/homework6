@@ -24,39 +24,39 @@ public class Main {
         System.out.println();
         //third task
         int totalPeople = 12_000_000;
-        int born = 17000;
-        int death = 8000;
+        int born = 17;
+        int death = 8;
         i = 1;
         while (i <= 10) {
-            totalPeople = totalPeople + born - death;
+            totalPeople = totalPeople + (totalPeople / 1000 * born) - (totalPeople / 1000 * 8);
             System.out.println("Год " + i + ", численность населения составляет " + totalPeople);
             i ++;
         }
         //fourth task
-        double vklad = 15000;
+        double deposit = 15000;
         i = 1;
-        while (vklad <= 12_000_000) {
-            vklad = vklad + vklad * 0.07;
+        while (deposit <= 12_000_000) {
+            deposit = deposit + deposit * 0.07;
 
-            System.out.println("Месяц " + i + ", сумма накоплений " + vklad);
+            System.out.println("Месяц " + i + ", сумма накоплений " + deposit);
             i ++;
         }
         //fifth task
-        vklad = 15000;
+        deposit = 15000;
         i = 1;
-        while (vklad <= 12_000_000) {
-            vklad = vklad + vklad * 0.07;
+        while (deposit <= 12_000_000) {
+            deposit = deposit + deposit * 0.07;
 
-            System.out.println("Месяц " + i + ", сумма накоплений " + vklad);
+            System.out.println("Месяц " + i + ", сумма накоплений " + deposit);
             i = i + 6;
         }
         //sixth task
-        vklad = 15000;
+        deposit = 15000;
         i = 1;
         while (i <=108) {
-            vklad = vklad + vklad * 0.07;
+            deposit = deposit + deposit * 0.07;
 
-            System.out.println("Месяц " + i + ", сумма накоплений " + vklad);
+            System.out.println("Месяц " + i + ", сумма накоплений " + deposit);
             i++;
         }
         //seventh task
