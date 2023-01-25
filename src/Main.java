@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         //first task
+        
         int salary = 15000;
         int total = 0;
         int month = 0;
